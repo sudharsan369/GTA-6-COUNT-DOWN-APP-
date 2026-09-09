@@ -1,0 +1,33 @@
+{
+  "id": "/",
+  "name": "GTA 6 Countdown & Vice City Vault",
+  "short_name": "GTA VI",
+  "description": "Live GTA 6 Release Countdown, 4K AMOLED Wallpapers, Vice City Radio and News for Android.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#13131a",
+  "theme_color": "#13131a",
+  "icons": [
+    {
+      "src": "/assets/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/assets/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/assets/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "categories": ["entertainment", "games", "personalization"]
+}

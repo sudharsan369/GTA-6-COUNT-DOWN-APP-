@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="neonGlow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ff479c"/>
+      <stop offset="50%" stop-color="#b26fff"/>
+      <stop offset="100%" stop-color="#00eefc"/>
+    </linearGradient>
+    <radialGradient id="darkBg" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#1f1e2c"/>
+      <stop offset="100%" stop-color="#0e0d14"/>
+    </radialGradient>
+  </defs>
+  <rect width="512" height="512" rx="128" fill="url(#darkBg)"/>
+  <rect x="16" y="16" width="480" height="480" rx="112" fill="none" stroke="url(#neonGlow)" stroke-width="8" opacity="0.6"/>
+  
+  <!-- Stylized Roman Numeral VI -->
+  <g fill="none" stroke="url(#neonGlow)" stroke-width="36" stroke-linecap="round" stroke-linejoin="round">
+    <!-- V -->
+    <path d="M 140,160 L 220,340 L 300,160"/>
+    <!-- I -->
+    <path d="M 370,160 L 370,340"/>
+  </g>
+  
+  <!-- Glowing Highlights -->
+  <text x="256" y="420" font-family="sans-serif" font-weight="900" font-size="28" fill="#00eefc" text-anchor="middle" letter-spacing="4">VICE CITY</text>
+</svg>

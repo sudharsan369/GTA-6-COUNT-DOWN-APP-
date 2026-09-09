@@ -1,0 +1,62 @@
+@import "tailwindcss";
+
+@theme {
+  --font-display: 'Space Grotesk', sans-serif;
+  --font-body: 'Outfit', sans-serif;
+  --font-mono: 'JetBrains Mono', monospace;
+
+  --color-surface: #13131a;
+  --color-surface-container: #1f1f27;
+  --color-surface-container-high: #2a2931;
+  --color-surface-container-highest: #34343c;
+  --color-surface-container-low: #1b1b23;
+  --color-surface-container-lowest: #0e0d15;
+  --color-surface-bright: #393841;
+
+  --color-primary: #ffb0ca;
+  --color-primary-container: #ff479c;
+  --color-on-primary: #640036;
+  --color-on-primary-container: #58002f;
+
+  --color-secondary: #d3fbff;
+  --color-secondary-container: #00eefc;
+  --color-secondary-fixed-dim: #00dbe9;
+  --color-on-secondary-container: #00686f;
+
+  --color-tertiary: #dbb8ff;
+  --color-tertiary-container: #b26fff;
+  --color-on-tertiary: #470083;
+
+  --color-on-surface: #e4e1ec;
+  --color-on-surface-variant: #e3bdc7;
+}
+
+@layer base {
+  body {
+    font-family: 'Outfit', sans-serif;
+    background-color: #13131a;
+    color: #e4e1ec;
+  }
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+@keyframes pulseGlow {
+  0%, 100% {
+    box-shadow: 0 0 15px rgba(255, 71, 156, 0.4), 0 0 30px rgba(0, 238, 252, 0.2);
+  }
+  50% {
+    box-shadow: 0 0 25px rgba(255, 71, 156, 0.7), 0 0 45px rgba(0, 238, 252, 0.4);
+  }
+}
+
+.neon-glow {
+  animation: pulseGlow 4s infinite ease-in-out;
+}
+
